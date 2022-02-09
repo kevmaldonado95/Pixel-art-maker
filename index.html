@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>pixelArt</h1>
+    </header>
+
+    <main>
+        <section>
+            <div id="container">
+                
+            </div>
+        </section>
+        <section class="palette">
+            <div class="color" id="white" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="black" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="red" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="blue" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="green" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="yellow" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="#7B3200" onclick="changeSelectedColor(this)"></div>
+            <div class="color" id="#FFC89E" onclick="changeSelectedColor(this)"></div>
+            <div id="selected"></div>
+        </section>
+        <section class="canvas">
+            <a id="download" download="myPixelArt.png" href="" onclick="download_img(this);"><button>Download to myImage.png</button></a>
+        </section>
+        <section>
+            <canvas></canvas>
+        </section>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

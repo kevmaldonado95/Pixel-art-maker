@@ -1,0 +1,41 @@
+*{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 15px;
+    font-size: 18px;
+}
+.palette{
+    display: flex;
+}
+.color, #selected{
+    height: 30px;
+    width: 30px;
+    border: solid black 1px;
+    margin: 1px;
+}
+#container {
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid black 1px;
+    box-sizing: content-box;
+    width: auto;
+}
+.cell{
+    background-color: white;
+    border: solid gray 1px;
+}
+canvas{
+    border: solid black 1px;
+}
